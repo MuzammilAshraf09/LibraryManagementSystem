@@ -206,7 +206,7 @@ namespace LibraryDAL
             fStream.Close();
         }
 
-        public List<Transaction> GetBorrowedBooksByBorrower(int borrowerId)   //getBorrowerbyID
+        public List<Transaction> GetBorrowedBooksByBorrower(int borrowerId)   //getBorrowedBooks by borrowerID
         {
             List<Transaction> transactions = GetAllTransactions();
             List<Transaction> borrowedBooks = new List<Transaction>();
@@ -245,7 +245,7 @@ namespace LibraryDAL
             return borrowers;
         }
 
-        public List<Transaction> GetAllTransactions() // getA
+        public List<Transaction> GetAllTransactions() // get all transactions
         {
             FileStream fStream = new FileStream("transactions.txt", FileMode.OpenOrCreate, FileAccess.Read);
             StreamReader reader = new StreamReader(fStream);
