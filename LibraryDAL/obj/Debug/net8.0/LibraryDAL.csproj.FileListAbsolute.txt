@@ -1,0 +1,11 @@
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\bin\Debug\net8.0\LibraryDAL.deps.json
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\bin\Debug\net8.0\LibraryDAL.dll
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\bin\Debug\net8.0\LibraryDAL.pdb
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.AssemblyInfoInputs.cache
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.AssemblyInfo.cs
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.csproj.CoreCompileInputs.cache
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.dll
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\refint\LibraryDAL.dll
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.pdb
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\ref\LibraryDAL.dll
