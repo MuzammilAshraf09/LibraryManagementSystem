@@ -9,3 +9,4 @@ D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.
 D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\refint\LibraryDAL.dll
 D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.pdb
 D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\ref\LibraryDAL.dll
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryDAL\obj\Debug\net8.0\LibraryDAL.sourcelink.json

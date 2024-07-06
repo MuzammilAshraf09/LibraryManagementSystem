@@ -16,3 +16,4 @@ D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryConsoleApp\obj\Debu
 D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryConsoleApp\obj\Debug\net8.0\LibraryConsoleApp.pdb
 D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryConsoleApp\obj\Debug\net8.0\LibraryConsoleApp.genruntimeconfig.cache
 D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryConsoleApp\obj\Debug\net8.0\ref\LibraryConsoleApp.dll
+D:\Semester 6\Web\PracticeWeb\LibraryManagementSystem\LibraryConsoleApp\obj\Debug\net8.0\LibraryConsoleApp.sourcelink.json
