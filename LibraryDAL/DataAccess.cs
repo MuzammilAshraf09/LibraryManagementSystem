@@ -20,7 +20,7 @@ namespace LibraryDAL
             fStream.Close();
         }
 
-        public void RemoveBook(int bookId) // to remove a bool from library 
+        public void RemoveBook(int bookId) // to remove a book from library 
         {
             List<Book> books = GetAllBooks();  // bbooks in Library
             int index = -1;   // index of book to remove frm list
@@ -37,6 +37,8 @@ namespace LibraryDAL
             {
                 books.RemoveAt(index);
                 SaveBooksToFile(books);  // save remaining books to file
+                Console.WriteLine("Book removed successfully ");
+
             }
             else
             {
@@ -65,6 +67,8 @@ namespace LibraryDAL
             if (flag)
             {
                 SaveBooksToFile(books); // save books with updated book
+                Console.WriteLine("Book updated successfully.");
+
             }
             else
             {
@@ -74,7 +78,7 @@ namespace LibraryDAL
 
         public List<Book> GetAllBooks() // get all books in library 
         {
-            FileStream fStream = new FileStream("books.txt", FileMode.OpenOrCreate, FileAccess.Read);
+            FileStream fStream = new FileStream("books.txt", FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(fStream);
 
             List<Book> books = new List<Book>(); // to store all books in library
@@ -164,6 +168,8 @@ namespace LibraryDAL
             if (flag)
             {
                 SaveBorrowersToFile(borrowers);
+                Console.WriteLine("Borrower updated successfully ");
+
             }
             else
             {
@@ -188,6 +194,8 @@ namespace LibraryDAL
             {
                 borrowers.RemoveAt(index);
                 SaveBorrowersToFile(borrowers);
+                Console.WriteLine("Borrower deleted successfully ");
+
             }
             else
             {
@@ -224,7 +232,7 @@ namespace LibraryDAL
 
         public List<Borrower> GetAllBorrowers()
         {
-            FileStream fStream = new FileStream("borrowers.txt", FileMode.OpenOrCreate, FileAccess.Read);
+            FileStream fStream = new FileStream("borrowers.txt", FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(fStream);
 
             List<Borrower> borrowers = new List<Borrower>();
@@ -247,7 +255,7 @@ namespace LibraryDAL
 
         public List<Transaction> GetAllTransactions() // get all transactions
         {
-            FileStream fStream = new FileStream("transactions.txt", FileMode.OpenOrCreate, FileAccess.Read);
+            FileStream fStream = new FileStream("transactions.txt", FileMode.Open, FileAccess.Read);
             StreamReader reader = new StreamReader(fStream);
 
             List<Transaction> transactions = new List<Transaction>();
@@ -272,7 +280,7 @@ namespace LibraryDAL
 
         private void SaveBooksToFile(List<Book> books) // save books to file after some operations
         {
-            FileStream fStream = new FileStream("books.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            FileStream fStream = new FileStream("books.txt", FileMode.Create, FileAccess.Write);
             StreamWriter writer = new StreamWriter(fStream);
 
             foreach (var book in books)
@@ -286,7 +294,7 @@ namespace LibraryDAL
 
         private void SaveBorrowersToFile(List<Borrower> borrowers)  //save borrowers to file after some operations
         {
-            FileStream fStream = new FileStream("borrowers.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            FileStream fStream = new FileStream("borrowers.txt", FileMode.Create, FileAccess.Write);
             StreamWriter writer = new StreamWriter(fStream);
 
             foreach (var borrower in borrowers)

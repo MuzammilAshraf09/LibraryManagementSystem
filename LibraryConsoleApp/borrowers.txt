@@ -1,5 +1,2 @@
-1,Muzammil,muzammil78@example.com
-2,Sara Khan,sara.khan@example.com
-3,Zainab Abbas,zainab.abbas@example.com
-4,Ali Sheikh,ali.sheikh@example.com
-5,Alisha Fatima,alisha.fatima@example.com
+1,Muzammil,muzammil@gmail.com
+2,Ali,ali@gmail.com
