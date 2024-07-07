@@ -1,4 +1,7 @@
-﻿using System;
+﻿// bcsf21m009 
+// here all the functiionalities has been test and all the functionalies meet the requirements i focued to meet all the validation in each
+// functons through ErrorHanler.cs and other things so no thing goes beyond as expected.
+using System;
 
 using LibraryDAL;
 namespace LibraryConsoleApp
@@ -72,7 +75,7 @@ namespace LibraryConsoleApp
             Console.Write("Enter Book ID: ");
             try
             {
-                bookId = int.Parse(Menu.GetUserInput());
+                bookId = int.Parse(Menu.GetUserInput()); // pase to int 
             }
             catch (FormatException)  // if input not valid 
             {
@@ -80,7 +83,7 @@ namespace LibraryConsoleApp
                 return;
             }
 
-            if (!ErrorHandles.ValidateBookId(bookId))
+            if (!ErrorHandles.ValidateBookId(bookId)) // validate the Id 
                 return;
 
             Console.Write("Enter Title: ");
@@ -152,7 +155,7 @@ namespace LibraryConsoleApp
                 Console.WriteLine("Book not found ");
                 return;
             }
-
+            // taking inputs 
             Console.Write("Enter Title: ");
             string title = Menu.GetUserInput();
 

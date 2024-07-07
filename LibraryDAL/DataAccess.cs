@@ -192,7 +192,7 @@ namespace LibraryDAL
 
             if (index != -1)
             {
-                borrowers.RemoveAt(index);
+                borrowers.RemoveAt(index); 
                 SaveBorrowersToFile(borrowers);
                 Console.WriteLine("Borrower deleted successfully ");
 
